@@ -8,6 +8,9 @@ import Account from './Components/PersonalAccount/account';
 import Layout from './Layout';
 import Login  from './Components/Auth/Login/login'
 import Reg from './Components/Auth/Reg/reg'
+import ChatLayout from './ChatLayout';
+import TechnicalSupport from './Components/Chat/technical-support/technical-support';
+import Mentor from './Components/Chat/mentor/mentor';
 
 class App extends React.Component{
     render(){
@@ -19,6 +22,10 @@ class App extends React.Component{
                     <Route path="office_map" element={<OfficeMap/>}/>
                     <Route path="tests" element={<Tests/>}/>
                     <Route path="chat" element={<Chat/>}/>
+                        <Route path="/" element={<ChatLayout/>}/>
+                            <Route index element={<Chat/>}/>
+                            <Route path="technical-support" element={<TechnicalSupport/>}/>
+                            <Route path="mentor" element={<Mentor/>}/>
                     <Route path="account" element={<Account/>}/>
                     <Route path="*" element={<Info/>}/>
                     <Route path="login" element={<Login/>}/>
