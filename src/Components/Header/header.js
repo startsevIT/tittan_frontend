@@ -8,7 +8,7 @@ class Header extends React.Component{
     render(){
         return(
             <div className="main-header">
-                <img src = {logo} className="logo"/>
+                <img src={logo} className="logo"/>
                 <nav className="main-nav">
                     <NavLink to="" className='header-link' >Информация</NavLink>
                     <NavLink to="office_map" className='header-link'>Карта офиса</NavLink>
