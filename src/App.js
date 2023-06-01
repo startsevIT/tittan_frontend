@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route} from "react-router-dom"
+import Main from './Components/Main/main';
 import Info from './Components/Info/info';
 import OfficeMap from './Components/OfficeMap/map';
 import Tests from './Components/Tests/tests';
@@ -16,13 +17,14 @@ class App extends React.Component{
             <>
             <Routes>
                 <Route path='/' element={<Layout/>}>
-                    <Route index element={<Info/>}/>
+                    <Route index element={<Main/>}/>
+                    <Route path="info" element={<Info/>}/>
                     <Route path="office_map" element={<OfficeMap/>}/>
                     <Route path="tests" element={<Tests/>}/>
-                    <Route path='test-page' element={<Test/>}/>
-                    <Route path="chat" element={<Chat/>}/>
+                    <Route path="test-page" element={<Test/>}/>
+                    {/* <Route path="chat" element={<Chat/>}/> */}
                     <Route path="account" element={<Account/>}/>
-                    <Route path="*" element={<Info/>}/>
+                    <Route path="*" element={<Main/>}/>
                     <Route path="login" element={<Login/>}/>
                     <Route path="reg" element={<Reg/>}/>
                 </Route>

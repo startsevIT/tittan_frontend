@@ -1,0 +1,107 @@
+.main-personal-account-wrapper {
+    padding: 1.46vh 4.51vw 0 9.72vw;
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333366;
+}
+
+.exit-link {
+    text-decoration: none;
+}
+
+.exit-button-wrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.personal-account-wrapper {
+    display: flex;
+    gap: 2.71vw;
+}
+
+.photo-wrapper {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 1.46vh 0;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;  
+    width: 23.26vw;
+}
+
+.avatar-img {
+    width: 20.9vw;
+    height: 29.59vh;
+}
+
+.edit-photo-btn {
+    width: 20.21vw;
+    height: 4.49vh;
+    margin: auto;
+    margin-top: 1.18vh;
+    background: #AEC7F9;
+    border-radius: 5px; 
+    border: 0;
+    align-self: center;
+    justify-content: center;
+}
+
+.edit-photo-btn-text {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.personal-info-wrapper {
+    margin: 0;
+    padding: 0;
+    padding-top: 2.54vh;
+    padding-left: 2.5vw;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    width: 59.79vw;
+}
+
+.personal-info-content-wrapper {
+    display: flex;
+    gap: 0.7vw;
+}
+
+.person-name {
+    font-weight: 600;
+    margin: 0;
+}
+
+.titles-wrapper p {
+    font-weight: 359;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #B9B7B7;
+    font-stretch: 100;
+}
+
+.info-wrapper p {
+    font-weight: 347;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.edit-info-btn {
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    margin-top: 8vh;
+    margin-bottom: 1.85vh;
+}
