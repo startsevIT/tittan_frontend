@@ -1,6 +1,5 @@
 import React from 'react';
 import './info.css';
-import workerImage from '../1img/rafiki.svg'
 
 class Info extends React.Component{
     render(){
@@ -17,7 +16,6 @@ class Info extends React.Component{
                         современных промышленно-производственных комплексов, способныхобеспечить производство высокотехнологичной 
                         продукции глубокой промышленной переработки. </p>
                     </div>
-                    <img src={ workerImage } className='worker-img'></img>
                 </div>
             </div>
         )

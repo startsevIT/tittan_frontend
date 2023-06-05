@@ -46,7 +46,6 @@
 }
 
 .company-description-wrapper {
-    background-image: url("../1img/Ellipse-for-info.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 76vw;
@@ -72,8 +71,4 @@
     color: #333366;
     margin: 0;
     padding: 0;
-}
-
-.worker-img {
-
 }
