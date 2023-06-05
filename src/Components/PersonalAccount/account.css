@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main-personal-account-wrapper {
     padding: 1.46vh 4.51vw 0 9.72vw;
     margin: 0;
@@ -79,12 +80,85 @@
 }
 
 .titles-wrapper p {
+=======
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 1440px;
+    height: 850px;
+    
+  }
+  .profile-image-container{    
+    border: 1px solid #ccc;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 335px;
+    height: 404px;
+    left: 140px;
+    top: 187px;
+    }
+
+  .profile-image {
+    width: 335px;
+    height: 300px;
+    left: 157px;
+    top: 202px;
+    border-radius: 0px;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 150px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 359;
+    font-size: 20px;
+  }
+  
+  .profile-details {
+    flex: 1 1;
+    text-align: left;
+    border: 1px solid #ccc;
+    position: absolute;
+    width: 861px;
+    height: 404px;
+    left: 529px;
+    top: 187px;
+
+  }
+  
+  .profile-details h2 {
+    margin-bottom: 10px;
+
+    padding-left: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #333366;
+  }
+  
+  .profile-details p {
+    margin: 29px 0;
+    padding-left: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+>>>>>>> e8e7c926a4ed4203854bd699c7d35da91d9ea506
     font-weight: 359;
     font-size: 17px;
     line-height: 23px;
 
     color: #B9B7B7;
     font-stretch: 100;
+<<<<<<< HEAD
 }
 
 .info-wrapper p {
@@ -105,3 +179,41 @@
     margin-top: 8vh;
     margin-bottom: 1.85vh;
 }
+=======
+  }
+  
+  .profile-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    height: 46px;
+    width: 291px;
+    left: 20px;
+    top: 335px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+  }
+  
+
+  .profile-details-button{
+    position: absolute;
+    width: 183px;
+    height: 27px;
+    top: 340px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    
+    color: #333366;
+  }
+>>>>>>> e8e7c926a4ed4203854bd699c7d35da91d9ea506
