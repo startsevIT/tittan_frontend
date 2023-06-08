@@ -1,5 +1,6 @@
 .tests-wrapper {
     padding: 0;
+    padding-bottom: 30vh;
     margin: 0;
     padding-top: 5.5%;
     display: flex;

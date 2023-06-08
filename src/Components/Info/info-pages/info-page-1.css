@@ -1,0 +1,35 @@
+.main-info-page-1-wrapper {
+    padding: 30px 50px;
+}
+
+.main-info-page-1-wrapper h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #333366;
+}
+
+.main-info-page-1-wrapper h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-decoration: underline;
+
+    color: #333366;
+}
+
+.main-info-page-1-wrapper p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 347;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #333366;
+    font-stretch: 100;
+}

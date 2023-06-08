@@ -16,21 +16,21 @@ class Info extends React.Component{
                     <img src={InfoIcon} className='info-icon'></img>
                 </div>
                 <div className='cards-wrapper'>
-                    <NavLink to='#' className='first-info-card'>
+                    <NavLink to='info-page-1' className='info-card'>
                         <div className='info-card-wrapper'>
-                            <img src={FirstMeetingImg} className='info-first-card-img'></img>
+                            <img src={FirstMeetingImg} className='info-card-img'></img>
                             <p className='info-card-title'>Знакомство с компанией</p>
                         </div>
                     </NavLink>
-                    <NavLink to='#' className='second-info-card'>
+                    <NavLink to='#' className='info-card'>
                         <div className='info-card-wrapper'>
-                            <img src={MainStagesImg} className='info-first-card-img'></img>
+                            <img src={MainStagesImg} className='info-card-img'></img>
                             <p className='info-card-title'>Основные этапы</p>
                         </div>
                     </NavLink>
-                    <NavLink to='#' className='third-info-card'>
+                    <NavLink to='#' className='info-card'>
                         <div className='info-card-wrapper'>
-                            <img src={WorkSubtletiesImg} className='info-first-card-img'></img>
+                            <img src={WorkSubtletiesImg} className='info-card-img'></img>
                             <p className='info-card-title'>Тонкости работы</p>
                         </div>
                     </NavLink>

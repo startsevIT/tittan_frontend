@@ -1,5 +1,5 @@
 .main-personal-account-wrapper {
-    padding: 1.46vh 4.51vw 0 9.72vw;
+    padding: 1.46vh 4.51vw 30vh 9.72vw;
     margin: 0;
     font-family: 'Open Sans';
     font-style: normal;
@@ -35,7 +35,7 @@
 
 .avatar-img {
     width: 20.9vw;
-    height: 29.59vh;
+    height: auto;
 }
 
 .edit-photo-btn {

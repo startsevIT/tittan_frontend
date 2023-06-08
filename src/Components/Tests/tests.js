@@ -9,7 +9,7 @@ class Tests extends React.Component{
     render(){
         return(
             <div className='tests-wrapper'>
-                <NavLink to='test-page' className='card'>
+                <NavLink to='test' className='card'>
                     <div className='test-card-wrapper'>
                         <img src={FirstMeetingImg} className='first-meeting-img'></img>
                         <p className='card-title'>Знакомство с компанией</p>

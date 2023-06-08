@@ -10,6 +10,7 @@ import Layout from './Layout';
 import Login  from './Components/Auth/Login/login'
 import Reg from './Components/Auth/Reg/reg'
 import Test from './Components/Tests/test';
+import InfoPage1 from './Components/Info/info-pages/info-page-1';
 
 class App extends React.Component{
     render(){
@@ -19,8 +20,10 @@ class App extends React.Component{
                 <Route path='/' element={<Layout/>}>
                     <Route index element={<Main/>}/>
                     <Route path="info" element={<Info/>}/>
+                    <Route path="info/info-page-1" element={<InfoPage1/>}/>
                     <Route path="office_map" element={<OfficeMap/>}/>
                     <Route path="tests" element={<Tests/>}/>
+                    <Route path="tests/test" element={<Test/>}/>
                     <Route path="test-page" element={<Test/>}/>
                     {/* <Route path="chat" element={<Chat/>}/> */}
                     <Route path="account" element={<Account/>}/>

@@ -22,7 +22,6 @@ class OfficeMap extends React.Component {
   render(){
         return ( 
           <Carousel>
-            
             <div>
               <img src={reception1}/>
               <p class="information">Ресепшен</p>
