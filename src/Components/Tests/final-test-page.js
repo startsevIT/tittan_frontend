@@ -9,7 +9,7 @@ class TestsFinal extends React.Component{
             <div className='final-test-wrapper'>
                 <h2>Успешное завершение!</h2>
                 <div className='final-test-1-wrapper'>
-                    <NavLink to='test-page-1' className='card-f'>
+                    <NavLink to='' className='card-f'>
                         <div className='final-tes-card-wrapper'>
                             <img src={FirstMeetingImg} className='first-meeting-img'></img>
                             <p className='card-title'>Знакомство с компанией</p>
