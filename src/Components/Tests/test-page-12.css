@@ -41,10 +41,10 @@
     margin-bottom: 45px;
 }
 
-.answer-wrapper {
+.answer-wrapper-12 {
     display: flex;
     gap: 10px;
-    width: 63.89vw;
+    width: 69.89vw;
     height: 6vh;
     background: #FFFFFF;
     border: 0.1px solid #D9D9D9;
@@ -54,17 +54,17 @@
     padding: 15px 20px;
 }
 
-.answer-wrapper:nth-child(1) {
+.answer-wrapper-12:nth-child(1) {
     margin-bottom: 20px;
     /* border: 2px solid #CE0B0B; */
 }
 
-.answer-wrapper:nth-child(2) {
+.answer-wrapper-12:nth-child(2) {
     margin-bottom: 20px;
-    /* border: 2px solid #1B6409; */
+    border: 2px solid #1B6409;
 }
 
-.answer-wrapper label {
+.answer-wrapper-12 label {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -72,9 +72,10 @@
     color: #333366;
 }
 
-.answer-wrapper input {
+.answer-wrapper-12 input {
     width: 30px;
     height: 30px;
+    display: none;
 }
 
 .test-footer {
@@ -122,4 +123,8 @@
     margin-left: auto;
     margin-right: 8.82vw;
     margin-top: 25px;
+}
+
+.next-link {
+    text-decoration: none;
 }
